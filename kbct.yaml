@@ -1,0 +1,37 @@
+# Apply this configuration to two keyboards (if connected)
+- keyboards: [ "Logitech Wireless Keyboard PID:4023", "AT Translated Set 2 keyboard"]
+
+  # RSTLNE Layout
+  keymap:
+        d: e
+        e: d
+        r: f
+        f: r
+        g: l
+        l: g
+        l: z
+        z: g
+        t: z
+        l: t
+        l: o
+        semicolon: t
+        o: y
+        k: i
+        i: k
+        n: j
+        j: n
+        comma: m
+        m: comma
+        n: comma
+        m: j
+        b: comma
+        n: b
+        y: semicolon
+        semicolon: t
+  # Specify layered configurations (much similar to fn+F keys)
+  layers:
+    # Specify the modifiers of the layer
+    - modifiers: ['rightalt']
+      keymap:
+        a: q
+        q: a
